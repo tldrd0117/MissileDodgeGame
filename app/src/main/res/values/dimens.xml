@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="star_width">10dp</dimen>
+    <dimen name="rock_width">40dp</dimen>
+    <dimen name="rocket_width">50dp</dimen>
+    <dimen name="diamond_width">30dp</dimen>
+</resources>

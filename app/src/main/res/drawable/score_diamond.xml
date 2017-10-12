@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="70dp"
+        android:height="50dp"
+        >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid
+                android:color="#444444">
+
+            </solid>
+            <corners
+                android:radius="10dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="8dp"
+        android:gravity="center_vertical"
+        android:width="16dp"
+        android:height="16dp"
+        android:drawable="@drawable/diamond"
+        >
+
+    </item>
+
+
+</layer-list>

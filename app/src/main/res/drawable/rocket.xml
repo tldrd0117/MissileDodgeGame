@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:left="4dp"
+        android:right="4dp"
+        android:top="15dp"
+        android:height="10dp"
+        android:width="1dp">
+        <rotate
+            android:pivotY="100%"
+            android:pivotX="50%"
+            android:fromDegrees="45"
+            android:toDegrees="45"
+            >
+            <shape
+                android:shape="rectangle">
+                <solid
+                    android:color="#ccc"/>
+            </shape>
+        </rotate>
+    </item>
+
+    <item
+        android:left="20dp"
+        android:right="4dp"
+        android:top="15dp"
+        android:height="10dp"
+        android:width="1dp">
+        <rotate
+            android:pivotY="100%"
+            android:pivotX="-50%"
+            android:fromDegrees="-45"
+            android:toDegrees="-45"
+            >
+            <shape
+                android:shape="rectangle">
+                <solid
+                    android:color="#ccc"/>
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:width="10dp"
+        android:left="8dp"
+        android:right="4dp"
+        android:top="0dp"
+        android:height="20dp"
+        >
+        <shape
+            android:shape="oval">
+            <solid
+                android:color="#444444"
+                >
+
+            </solid>
+            <size
+                android:height="10dp"
+                android:width="10dp"></size>
+        </shape>
+    </item>
+
+
+    <item
+        android:right="4dp"
+        android:left="8dp"
+        android:width="10dp"
+        android:top="10dp"
+        android:height="10dp"
+        >
+        <shape android:shape="rectangle">
+            <solid
+                android:color="#fff">
+
+            </solid>
+            <corners
+                android:topRightRadius="3dp"
+                android:topLeftRadius="3dp"
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"/>
+        </shape>
+    </item>
+
+
+    <item
+        android:width="5dp"
+        android:height="7dp"
+        android:left="17dp"
+        android:right="4dp"
+        android:top="20dp" >
+        <shape
+            android:shape="rectangle">
+            <solid
+                android:color="#ffffff"
+                >
+
+            </solid>
+            <corners
+                android:topLeftRadius="3dp"
+                android:topRightRadius="3dp"
+                android:bottomLeftRadius="1dp"
+                android:bottomRightRadius="1dp"
+                />
+        </shape>
+    </item>
+    <item
+        android:width="5dp"
+        android:height="7dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:top="20dp" >
+        <shape
+            android:shape="rectangle">
+            <solid
+                android:color="#ffffff"
+                >
+
+            </solid>
+            <corners
+                android:topLeftRadius="3dp"
+                android:topRightRadius="3dp"
+                android:bottomLeftRadius="1dp"
+                android:bottomRightRadius="1dp"
+                />
+        </shape>
+    </item>
+    <item
+        android:left="4dp"
+        android:right="4dp"
+        android:bottom="4dp"
+        android:gravity="center"
+        android:drawable="@drawable/bolt"
+        android:width="5dp"
+        android:height="5dp"
+        >
+
+
+    </item>
+
+    <item
+        android:left="4dp"
+
+        android:right="17dp"
+        android:top="14dp"
+        android:gravity="center"
+        android:width="4dp"
+        android:height="4dp"
+        android:drawable="@drawable/face"/>
+
+    <item
+        android:right="4dp"
+        android:left="17dp"
+        android:top="14dp"
+        android:gravity="center"
+        android:width="4dp"
+        android:height="4dp"
+        android:drawable="@drawable/face_2"/>
+
+    <item
+        android:gravity="center"
+        android:left="13dp"
+        android:top="27dp"
+        android:width="8dp"
+        android:height="8dp"
+        >
+        <rotate
+            android:fromDegrees="180"
+            android:toDegrees="180"
+            android:drawable="@drawable/fire"/>
+    </item>
+    <item
+        android:top="27dp"
+        android:right="13dp"
+
+        android:gravity="center"
+        android:width="8dp"
+        android:height="8dp"
+        >
+        <rotate
+            android:fromDegrees="180"
+            android:toDegrees="180"
+            android:drawable="@drawable/fire"/>
+    </item>
+</layer-list>
